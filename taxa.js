@@ -1,9 +1,9 @@
-module.exports = dayRate
-module.exports = daysInBudget
 
 function dayRate(rate) {
     return rate * 8
 }
+
+module.exports = dayRate
 
 console.log(dayRate(89))
 
