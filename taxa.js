@@ -3,7 +3,6 @@ function dayRate(rate) {
     return rate * 8
 }
 
-module.exports = dayRate, daysInBudget, priceWithMonthlyDiscount
 
 console.log(dayRate(89))
 
@@ -32,3 +31,4 @@ const priceWithMonthlyDiscount = (rate, budget, discount) => {
   
 }
 console.log(priceWithMonthlyDiscount(16, 130, 0.15))
+module.exports = dayRate, daysInBudget, priceWithMonthlyDiscount
