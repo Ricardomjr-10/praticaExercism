@@ -3,15 +3,15 @@ function dayRate(rate) {
     return rate * 8
 }
 
-module.exports = dayRate
+module.exports = dayRate, daysInBudget, priceWithMonthlyDiscount
 
 console.log(dayRate(89))
-
 
 const daysInBudget = (budget, rate) => {
     let result = Math.round(budget / dayRate(rate))
     return result
 }
+
 
 console.log(daysInBudget(20000, 89))
 
